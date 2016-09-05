@@ -1,0 +1,27 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "A small program to return a shorter url. Made for FCC backend curriculum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marmiz/url-shortener.git"
+  },
+  "keywords": [
+    "url",
+    "shortener",
+    "freecodecamp"
+  ],
+  "author": "Marmiz (claudio restifo)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marmiz/url-shortener/issues"
+  },
+  "homepage": "https://github.com/Marmiz/url-shortener#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
