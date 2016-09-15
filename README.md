@@ -27,4 +27,6 @@ https://urlshort-microservice.herokuapp.com/new/https://github.com
 Then visiting `urlshort-microservice.herokuapp.com/ByKZ8nP2` will redirect you to the original webpage.
 
 ---
+You can see this live [here](https://urlshort-microservice.herokuapp.com/) on Heroku.
+
 <3 Marmiz
