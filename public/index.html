@@ -7,8 +7,31 @@
 
 <body>
     <div class="page-header container">
-        <h1>Url Shortener</h1>
-        
+        <h1>Url Shortener</br>
+        <small>A small project made for Free Code Camp back-end curriculm</small></h1>
     </div>
-    <!--/page header container-->
+    
+    <div class="container">
+        <h2>What's this?</h2>
+        <p class="lead">
+            A simple project where I can pass a url and receive a shorter verion in a JSON response.<br>
+            When visited, the short URL will automatically redirect me to my original page.     
+        </p>
+        
+        <h2>Exeample of usage</h2>
+        <pre>/new/my website url</pre>
+        <pre>https://urlshort-microservice.herokuapp.com/new/https://www.reddit.com</pre>
+        
+        <h2>Output exeample</h2>
+        <pre>{"original_url":"https://www.reddit.com","short_url":"urlshort-microservice.herokuapp.com/SJELsDUn"}</pre>
+        <p> then visiting <code>urlshort-microservice.herokuapp.com/SJELsDUn</code> will redirect
+        me to the origian webpage.
+        </p>
+    </div>
+    
+    <div class="container" style="padding-top: 20px">
+        <p>Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> by Marmiz</p>
+    </div>
+
+
 </body>
