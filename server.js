@@ -16,13 +16,16 @@ var config = require('./config');
 // set port
 app.set('port', (process.env.PORT || 8080));
 
+app.use(express.static(__dirname + '/public'));
+
 // set some db variables for mLAb
 var mLab = "mongodb://" + config.db.host +"/" +config.db.name;
 var MongoClient = mongodb.MongoClient;
 
+
 /* GET home page. */
 app.get('/', function(req, res, next) {
-  res.send('Hello World!');
+  res.sendFile('index.html');
 });
 
 /* GET new url. */
